@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Visual Studio cache folder (IMPORTANT)
+.vs/
+**/.vs/
+
+# Visual Studio user files (optional but common)
+*.user
+*.rsuser
