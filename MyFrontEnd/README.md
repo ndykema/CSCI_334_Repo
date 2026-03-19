@@ -1,16 +1,51 @@
-# React + Vite
+# Charity Run React Student Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a thin React starter for the CSCI 443 charity run project.
 
-Currently, two official plugins are available:
+## Goal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Use this starter to build your own front-end design for the 5K charity run website.
 
-## React Compiler
+The backend API is already provided by the instructor. Your job is to improve the user interface, user experience, and responsiveness.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What is included
 
-## Expanding the ESLint configuration
+- a minimal React + Vite project
+- a basic API helper file
+- simple page switching
+- example login and registration calls
+- placeholder dashboard and admin pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What students should do
+
+- redesign the public home page
+- improve the login and registration forms
+- add better validation and error messages
+- redesign the dashboard for registered runners
+- redesign the admin page
+- make the site responsive for desktop, tablet, and mobile
+- apply UI principles from the course
+
+## Where to start
+
+1. Run the backend.
+2. Run this React project.
+3. Open `src/App.jsx` and read the `STUDENT TASK` comments.
+4. Replace the placeholder layout with your own design.
+
+## Run the project
+
+```bash
+npm install
+npm run dev
+```
+
+## Backend URL
+
+The default backend URL is set in `src/api.js`:
+
+```js
+export const API_BASE = 'http://localhost:5000'
+```
+
+Change this if your backend uses a different port.
