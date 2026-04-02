@@ -119,7 +119,7 @@ app.MapPost("/api/auth/login", (LoginRequest request) =>
 
     if (runner is null || !PasswordHelper.VerifyPassword(password, runner.PasswordHash))
     {
-        return Results.Unauthorized(new { error = "Invalid email or password." });
+        return Results.Json(new { error = "Invalid email or password." }, statusCode: 401);
     }
 
     var token = Guid.NewGuid().ToString("N");

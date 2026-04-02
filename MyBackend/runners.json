@@ -53,5 +53,16 @@
     "TeamName": null,
     "IsAdmin": false,
     "CreatedAt": "2026-03-19T01:01:25.4865086Z"
+  },
+  {
+    "Id": 6,
+    "Name": "Nathan Dykema",
+    "Email": "runner@gmail.com",
+    "Age": 26,
+    "EmergencyPhone": "1231231212",
+    "PasswordHash": "tsfd7vYGosfIf0TGo6SKXQ==.SAxnpTPPHQIRhBaGWH94cJoByUrnECtLu25gaqVSnd4=",
+    "TeamName": null,
+    "IsAdmin": false,
+    "CreatedAt": "2026-03-19T01:34:20.9897952Z"
   }
 ]

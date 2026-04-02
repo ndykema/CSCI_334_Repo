@@ -108,10 +108,6 @@ export default function App() {
             setMessage('Login successful.')
             setPage('dashboard')
 
-        } catch (error) {
-            console.error(error)
-            setMessage('Something went wrong. Please try again.')
-        }
     }
 
     async function handleRegister(event) {
